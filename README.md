@@ -14,7 +14,7 @@ El objetivo es mostrar cómo integrar hardware simulado con visualización y an�
     DHT11/
         DHT11.ino            # Código Arduino para lectura y envío de datos del DHT11
     Simulador.pdsprj         # Proyecto Proteus para simular el circuito
-    circuito.png             # Imagen del circuito, útil si no puedes abrir el archivo de Proteus
+    Simulador.pdf            # Imagen del circuito, útil si no puedes abrir el archivo de Proteus
 
 data_graphica.py             # Script Python para graficar en tiempo real y guardar datos en CSV
 requirements.txt             # Dependencias de Python necesarias para correr el proyecto
