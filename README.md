@@ -83,16 +83,8 @@ Aquí algunas ideas para evolucionar el proyecto:
 ✅ **En Python (`data_graphica.py`):**
 
 * Guardar múltiples sesiones de datos con timestamps únicos para no sobrescribir el CSV.
-* Implementar una interfaz gráfica (GUI) para controlar el puerto COM y las configuraciones.
-* Permitir al usuario ajustar los umbrales desde Python (y enviarlos de vuelta a Arduino).
 * Añadir alertas visuales/sonoras si los umbrales son superados.
 * Optimizar el guardado del CSV para hacerse solo al final, evitando sobrecarga durante la ejecución.
-
-✅ **En general:**
-
-* Migrar la comunicación a Wi-Fi (usando, por ejemplo, un ESP8266) para evitar depender del puerto serial.
-* Integrar dashboards web usando frameworks como Dash o Streamlit.
-* Crear un contenedor Docker para empaquetar dependencias y facilitar la ejecución.
 
 ---
 
